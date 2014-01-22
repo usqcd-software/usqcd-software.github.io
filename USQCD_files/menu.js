@@ -1,5 +1,5 @@
 document.write('<center><table class="menu">');
-document.write('<tr><th  colspan="2"> <a href="./USQCD.html"> SOFTWARE</a> </th></tr>');
+document.write('<tr><th  colspan="2"> <a href="./index.html"> SOFTWARE</a> </th></tr>');
 document.write('<tr><th  colspan="2"><a href="./Tutorials.html"> Tutorials </a></th></tr>');
 document.write('<tr><th  colspan="2"> <a href="./References.html"> References</a> </th></tr>');
 document.write('<tr><th  class="alt" colspan="2"> Applications </th></tr>');
@@ -49,6 +49,6 @@ document.write('    <td><a href="http://usqcd.jlab.org/usqcd-docs/qmt">QMT</a></
 document.write('</tr>');
 
 document.write('<tr><th  colspan="2"> <a href="./MoreSoftware.html"> More Software</a> </th></tr>');
-document.write('<tr><th  colspan="2"> <a href="./GaugeConnection.html"> Gauge Connection</a> </th></tr>');
-document.write('<tr><th  colspan="2"> <a href="./Hardware.html"> Hardware</a> </th></tr>');
+document.write('<tr><th  colspan="2"> <a href="http://qcd.nersc.gov/"> Gauge Connection</a> </th></tr>');
+document.write('<tr><th  colspan="2"> <a href="http://www.usqcd.org/computing.html"> Hardware</a> </th></tr>');
 document.write('</table></center>');
