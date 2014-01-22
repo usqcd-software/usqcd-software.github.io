@@ -1,0 +1,201 @@
+<!-- define floats -->
+div.container {
+    width:100%;
+    margin:0px;
+    border:1px solid gray;
+    line-height:150%;
+}
+div.header,div.footer {
+    padding:0.5em;
+    clear:left;
+}
+div.left {
+    width:185px;
+    float:left;
+    background:#e0e0e0;
+    font-size:16px;
+    font-family:sans-serif;
+    border-left:9px solid white;
+}
+div.content {
+    width:700px;
+    margin-left:210px;
+    padding:1em;
+    font-size:16px;
+    font-family:sans-serif;
+}
+
+
+
+<!-- define table for left menu-->
+.menu {margin: 1em 0 1em 0;
+       background: #e0e0e0;
+}
+.menu th {
+        height:40px;
+        background: #ffffff;
+        color: #012894;
+        border:2px solid #e0e0e0;
+        text-align: center;
+}
+.menu th.alt {
+        height:40px;
+        color: #000000;
+        background: #e0e0e0;
+        border:2px solid #e0e0e0;
+        text-align: center;
+}
+.menu td {
+        height:20px;
+        color: #000000;
+        background: #e0e0e0;
+        border:2px solid #e0e0e0;
+        text-align: center;
+}
+.menu a:link{ 
+        text-decoration: none; 
+        color:#012894; 
+} 
+.menu a:visited{ 
+        text-decoration: none; 
+        color:#012894; 
+}
+.menu a:hover { 
+        text-decoration: none; 
+        color:#FF0000; 
+}
+.menu a:active { 
+        text-decoration: none; 
+        color:#FF0000; 
+}
+<!-- define table for layer "plot" -->
+.layers {width:600px;
+       margin: 0 0 1em 0;
+       border:none; 
+}
+.layers td.levelA { 
+       height:98px;
+       width:98px;
+       background-color:#ffce00;
+       font-family:sans-serif;
+       font-weight: bold;
+       font-size:24px;
+       color:#000000;
+       text-align: center; 
+}
+.layers td.level3 { 
+       height:60px;
+       width:98px;
+       background-color:#ffc895;
+       color:#000000;
+       font-family:sans-serif;
+       font-size:20px;
+       font-weight: bold;
+       text-align: center; 
+}
+.layers td.level2 { 
+       height:60px;
+       width:98px;
+       background-color:#ff2600;
+       color:#000000;
+       font-family:sans-serif;
+       font-size:20px;
+       font-weight: bold;
+       text-align: center; 
+}
+.layers td.level1 { 
+       height:60px;
+       width:98px;
+       background-color:#72cfff;
+       color:#000000;
+       font-family:sans-serif;
+       font-weight: bold;
+       font-size:20px;
+       text-align: center; 
+}
+.layers a:link{ 
+        text-decoration: none; 
+        color:#000000; 
+} 
+.layers a:visited{ 
+        text-decoration: none; 
+        color:#000000; 
+}
+.layers a:hover { 
+        text-decoration: none; 
+        color:#0000FF; 
+}
+.layers a:active { 
+        text-decoration: none; 
+        color:#0000FF; 
+}
+
+
+<!-- define table for "slice" of layer "plot" -->
+.layers2 {width:600px;
+       margin: 0 0 1em 0;
+       border:none; 
+}
+.layers2 td.levelA { 
+       height:98px;
+       width:98px;
+       background-color:#ffce00;
+       font-family:sans-serif;
+       font-size:24px;
+       font-weight: bold;
+       color:#000000;
+       text-align: center; 
+}
+.layers2 td.level3 { 
+       height:30px;
+       width:98px;
+       background-color:#ffc895;
+       color:#000000;
+       font-family:sans-serif;
+       font-size:20px;
+       text-align: center; 
+}
+.layers2 td.level2 { 
+       height:30px;
+       width:98px;
+       background-color:#ff2600;
+       color:#000000;
+       font-family:sans-serif;
+       font-size:20px;
+       text-align: center; 
+}
+.layers2 td.level1 { 
+       height:30px;
+       width:98px;
+       background-color:#72cfff;
+       color:#000000;
+       font-family:sans-serif;
+       font-size:20px;
+       text-align: center; 
+}
+.layers2 td.more { 
+       height:30px;
+       width:98px;
+       background-color:#012894;
+       color:#ffffff;
+       font-family:sans-serif;
+       font-weight: bold;
+       font-size:18px;
+       text-align: center; 
+}
+.layers2 a:link{ 
+        text-decoration: none; 
+        color:#0000FF; 
+} 
+.layers2 a:visited{ 
+        text-decoration: none; 
+        color:#0000FF; 
+}
+.layers2 a:hover { 
+        text-decoration: none; 
+        color:#FF0000; 
+}
+.layers2 a:active { 
+        text-decoration: none; 
+        color:#FF0000; 
+}
