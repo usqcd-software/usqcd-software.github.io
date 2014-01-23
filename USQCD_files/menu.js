@@ -1,5 +1,5 @@
 document.write('<center><table class="menu">');
-document.write('<tr><th  colspan="2"> <a href="./index.html"> SOFTWARE</a> </th></tr>');
+document.write('<tr><th  colspan="2"> <a href="https://github.com/usqcd-software"> SOFTWARE</a> </th></tr>');
 document.write('<tr><th  colspan="2"><a href="./Tutorials.html"> Tutorials </a></th></tr>');
 document.write('<tr><th  colspan="2"> <a href="./References.html"> References</a> </th></tr>');
 document.write('<tr><th  class="alt" colspan="2"> Applications </th></tr>');
