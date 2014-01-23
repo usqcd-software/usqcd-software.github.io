@@ -173,6 +173,15 @@ div.content {
        font-size:20px;
        text-align: center; 
 }
+.layers2 td.requires { 
+       height:30px;
+       width:98px;
+       background-color:#a3ffc2;
+       color:#000000;
+       font-family:sans-serif;
+       font-size:20px;
+       text-align: center; 
+}
 .layers2 td.more { 
        height:98px;
        width:98px;
