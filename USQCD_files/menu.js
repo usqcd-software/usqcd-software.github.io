@@ -1,19 +1,20 @@
 document.write('<center><table class="menu">');
+document.write('<tr><th  colspan="2"> <a href="./index.html"> HOME</a> </th></tr>');
 document.write('<tr><th  colspan="2"> <a href="https://github.com/usqcd-software"> SOFTWARE</a> </th></tr>');
 document.write('<tr><th  colspan="2"><a href="./Tutorials.html"> Tutorials </a></th></tr>');
 document.write('<tr><th  colspan="2"> <a href="./References.html"> References</a> </th></tr>');
 document.write('<tr><th  class="alt" colspan="2"> Applications </th></tr>');
 document.write('<tr> ');
-document.write('    <td><a href="http://usqcd.jlab.org/usqcd-docs/chroma/">Chroma</a></td>');
-document.write('    <td><a href="http://www.physics.utah.edu/~detar/milc/index.html">MILC</a></td>');
+document.write('    <td><a href="./Chroma.html">Chroma</a></td>');
+document.write('    <td><a href="./MILC.html">MILC</a></td>');
 document.write('</tr>');
 document.write('<tr>');
-document.write('    <td><a href="http://qcdoc.phys.columbia.edu/cps.html">CPS</a></td>');
-document.write('    <td><a href="https://usqcd.lns.mit.edu/redmine/projects/build">QLUA</a></td>');
+document.write('    <td><a href="./CPS.html">CPS</a></td>');
+document.write('    <td><a href="./QLUA">QLUA</a></td>');
 document.write('</tr>');
 document.write('<tr>');
 document.write('    <td><a href="./FUEL.html">FUEL</a></td>');
-document.write('    <td><a href="http://lattice.github.com/quda">QUDA</a></td>');
+document.write('    <td><a href="./QUDA">QUDA</a></td>');
 document.write('</tr>');
 
 document.write('<tr><th  class="alt" colspan="2"> Level 3 libraries </th></tr>');
