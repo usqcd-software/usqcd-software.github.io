@@ -28,7 +28,7 @@ document.write('</tr>');
 
 document.write('<tr><th  class="alt" colspan="2"> Level 2 libraries </th></tr>');
 document.write('<tr>');
-document.write('    <td><a href="http://usqcd.jlab.org/usqcd-docs/qdp++/">QDP/C++</a></td>');
+document.write('    <td><a href="http://usqcd-software.github.io/qdpxx">QDP/C++</a></td>');
 document.write('    <td><a href="http://usqcd.jlab.org/usqcd-docs/qio">QIO</a></td>');
 document.write('</tr>');
 document.write('<tr>');
