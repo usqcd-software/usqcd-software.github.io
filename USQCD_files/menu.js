@@ -10,11 +10,11 @@ document.write('    <td><a href="./MILC.html">MILC</a></td>');
 document.write('</tr>');
 document.write('<tr>');
 document.write('    <td><a href="./CPS.html">CPS</a></td>');
-document.write('    <td><a href="./QLUA">QLUA</a></td>');
+document.write('    <td><a href="./QLUA.html">QLUA</a></td>');
 document.write('</tr>');
 document.write('<tr>');
 document.write('    <td><a href="./FUEL.html">FUEL</a></td>');
-document.write('    <td><a href="./QUDA">QUDA</a></td>');
+document.write('    <td><a href="./QUDA.html">QUDA</a></td>');
 document.write('</tr>');
 
 document.write('<tr><th  class="alt" colspan="2"> Level 3 libraries </th></tr>');
