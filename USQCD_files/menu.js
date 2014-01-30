@@ -14,19 +14,20 @@ document.write('    <td><a href="./QLUA.html">QLUA</a></td>');
 document.write('</tr>');
 document.write('<tr>');
 document.write('    <td><a href="./FUEL.html">FUEL</a></td>');
-document.write('    <td><a href="./QUDA.html">QUDA</a></td>');
 document.write('</tr>');
 
 document.write('<tr><th  class="alt" colspan="2"> Level 3 libraries </th></tr>');
 document.write('<tr>');
-document.write('    <td><a href="http://usqcd.jlab.org/usqcd-docs/qopqdp">QOPQDP</a></td>');
+document.write('    <td><a href="http://www.mit.edu/~avp/sse/">CG DWF</a></td>');
 document.write('    <td><a href=" https://usqcd.lns.mit.edu/redmine/projects/clover">CLOVER</a><br></td>');
 document.write('</tr>');
 document.write('<tr>');
 document.write('    <td><a href="https://usqcd.lns.mit.edu/redmine/projects/mdwf">MDWF</a><br></td>');
-document.write('    <td><a href="http://www.mit.edu/~avp/sse/">CG DWF</a></td>');
+document.write('    <td><a href="http://usqcd.jlab.org/usqcd-docs/qopqdp">QOPQDP</a></td>');
 document.write('</tr>');
-
+document.write('<tr>');
+document.write('    <td><a href="http://lattice.github.io/quda/">QUDA</a></td>');
+document.write('</tr>');
 document.write('<tr><th  class="alt" colspan="2"> Level 2 libraries </th></tr>');
 document.write('<tr>');
 document.write('    <td><a href="http://usqcd-software.github.io/qdpxx">QDP/C++</a></td>');

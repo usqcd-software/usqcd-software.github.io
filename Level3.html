@@ -41,15 +41,40 @@ game you can <span style="font-weight: bold;">save yourself a lot of frustration
                   <br>
 Having said all that, the currently available Level 3 SciDAC modules are described and listed below:
                   <p>
+<a id="QUDA"></a>
+<table class="layers2">
+<tr>
+<td class="level3"> QUDA</td>
+<td colspan="6">
+<span style="font-weight: bold;">Maintainer</span>:&nbsp;Mike Clark (mclark[at]nvidia[dot]com)  <br>
+<span style="font-weight: bold;">Source code</span>:&nbsp; <a href="http://lattice.github.com/downloads/quda/quda-0.6.0.tar.gz">tar-ball</a>&nbsp; &nbsp;<a href="http://github.com/lattice/quda">repository</a><br>
+<span style="font-weight: bold;">Web site</span>:&nbsp; <a href="http://lattice.github.io/quda/">http://lattice.github.io/quda</a><br>
+<span style="font-weight: bold;">Reference to cite</span>:&nbsp; <a href="http://inspirehep.net/record/837123">Comput.Phys.Commun. 181 (2010) 1517</a>, <a href="http://inspirehep.net/record/927455"> Proceedings of SC 2011 </a><br>
+</td>
+</tr>
+<tr> 
+<td class="level1"> Level 1</td>
+<td colspan="6">optional: QMP</td>
+</tr>
+<tr> 
+<td class="requires"> requires</td>
+<td colspan="6">CUDA</td>
+</tr>
+</table>
+<p>
+QUDA is a library for performing calculations in lattice QCD on graphics processing units (GPUs), leveraging NVIDIA's CUDA platform. The current release includes optimized Dirac operators and solvers for the following fermion actions: Wilson, Clover-improved Wilson, Twisted mass (degenerate or non-degenerate), Improved staggered (asqtad or HISQ), Domain wall.<br>
+&nbsp;&nbsp;Implementations of CG, multi-shift CG, BiCGstab, and DD-preconditioned GCR are provided, including robust mixed-precision variants supporting combinations of double, single, and half (16-bit "block floating point") precision. The library also includes routines for HISQ link fattening and force terms for the HISQ fermion action and one-loop improved Symanzik gauge action. Use of many GPUs in parallel is supported throughout, with communication handled by QMP or MPI.
+<p>
+
 <a id="QOPQDP"></a>
 <table class="layers2">
 <tr>
 <td class="level3"> QOPQDP</td>
 <td colspan="6">
 <span style="font-weight: bold;">Maintainer</span>:&nbsp;James Osborn (osborn[at]alcf[dot]anl[dot]gov) <br>
-<span style="font-weight: bold;">Source code</span>:&nbsp; <a href="http://">tar-ball</a>&nbsp; &nbsp;<a href="http://">repository</a><br>
-<span style="font-weight: bold;">Documentation</span>:&nbsp; <a href="http://">doxygen</a><br>
-<span style="font-weight: bold;">Reference to cite</span>:&nbsp; <a href="">???</a><br>
+<span style="font-weight: bold;">Source code</span>:&nbsp; <a href="http://usqcd.jlab.org/usqcd-software/qopqdp/">tar-ball</a>&nbsp; &nbsp;<a href="https://github.com/usqcd-software/qopqdp">repository</a><br>
+<span style="font-weight: bold;">Web site</span>:&nbsp; <a href="http://usqcd.jlab.org/usqcd-docs/qopqdp">http://usqcd.jlab.org/usqcd-docs/qopqdp</a><br>
+<span style="font-weight: bold;">Reference to cite</span>:&nbsp; <br>
 </td>
 </tr>
 <tr>
@@ -65,7 +90,6 @@ Having said all that, the currently available Level 3 SciDAC modules are describ
 QOPQDP is an implementation of the QOP level-three interface using QDP.
 It contains various inverters and force terms that can be used across many
 platforms and still achieves high performance.
-<a href="http://usqcd.jlab.org/usqcd-docs/qopqdp">Click here to go to the QOPQDP home page.</a><br>
 <p>
 
 <a id="MDWF"></a>
@@ -75,8 +99,8 @@ platforms and still achieves high performance.
 <td colspan="6">
 <span style="font-weight: bold;">Maintainer</span>:&nbsp;Andrew Pochinsky (avp[at]mit[dot]edu) <br>
 <span style="font-weight: bold;">Source code</span>:&nbsp; <a href="https://usqcd.lns.mit.edu/redmine/projects/mdwf/files">tar-ball</a>&nbsp; &nbsp;<a href="https://usqcd.lns.mit.edu/redmine/projects/mdwf/repository">repository</a><br>
-<span style="font-weight: bold;">Documentation</span>:&nbsp; <a href="http://">doxygen</a><br>
-<span style="font-weight: bold;">Reference to cite</span>:&nbsp; <a href="">???</a><br>
+<span style="font-weight: bold;">Web site</span>:&nbsp; <a href="https://usqcd.lns.mit.edu/redmine/projects/mdwf">https://usqcd.lns.mit.edu/redmine/projects/mdwf</a><br>
+<span style="font-weight: bold;">Reference to cite</span>:&nbsp; <br>
 </td>
 </tr>
 <tr>
@@ -89,18 +113,18 @@ platforms and still achieves high performance.
 </tr>
 </table>
 <p>
-MDWF is a Level 3 inverter package, for performing inversions of a variety of Domain Wall Kernels, including Shamir, Moebius and Borici variants. <a href="https://usqcd.lns.mit.edu/redmine/projects/mdwf">Click Here to go to the MDWF web page</a><br>
+MDWF is a Level 3 inverter package, for performing inversions of a variety of Domain Wall Kernels, including Shamir, Moebius and Borici variants.<br>
 
 <p>
-<a id="Dslashes"></a>
+<a id="Inverter"></a>
 <table class="layers2">
 <tr>
 <td class="level3"> Clover</td>
 <td colspan="6">
 <span style="font-weight: bold;">Maintainer</span>:&nbsp;Andrew Pochinsky (avp[at]mit[dot]edu) <br>
-<span style="font-weight: bold;">Source code</span>:&nbsp; <a href="http://">tar-ball</a>&nbsp; &nbsp;<a href="http://">repository</a><br>
-<span style="font-weight: bold;">Documentation</span>:&nbsp; <a href="http://">doxygen</a><br>
-<span style="font-weight: bold;">Reference to cite</span>:&nbsp; <a href="">???</a><br>
+<span style="font-weight: bold;">Source code</span>:&nbsp; <a href="https://usqcd.lns.mit.edu/redmine/projects/clover/files">tar-ball</a>&nbsp; &nbsp;<a href="https://usqcd.lns.mit.edu/redmine/projects/clover/repository">repository</a><br>
+<span style="font-weight: bold;">Web site:</span>:&nbsp; <a href="https://usqcd.lns.mit.edu/redmine/projects/clover">https://usqcd.lns.mit.edu/redmine/projects/clover</a><br>
+<span style="font-weight: bold;">Reference to cite</span>:&nbsp;<br>
 </td>
 </tr>
 <tr>
@@ -113,7 +137,7 @@ MDWF is a Level 3 inverter package, for performing inversions of a variety of Do
 </tr>
 </table>
 <p>
-Clover is a Level 3 solver for Clover fermions from MIT <a href=" https://usqcd.lns.mit.edu/redmine/projects/clover">Click here to get from TRAC</a><br>
+Clover is a Level 3 solver for Clover fermions from MIT.<br>
 
 <p>
 
@@ -123,8 +147,8 @@ Clover is a Level 3 solver for Clover fermions from MIT <a href=" https://usqcd.
 <td colspan="6">
 <span style="font-weight: bold;">Author</span>:&nbsp;Andrew Pochinsky <span style="color:#ff0000"> -- no longer maintained</span><br>
 <span style="font-weight: bold;">Source code</span>:&nbsp; <a href="http://www.mit.edu/~avp/sse">tar-ball</a>&nbsp; &nbsp;<!--<a href="http://">repository</a>--><br>
-<span style="font-weight: bold;">Documentation</span>:&nbsp; <a href="http://">doxygen</a><br>
-<span style="font-weight: bold;">Reference to cite</span>:&nbsp; <a href="">???</a><br>
+<span style="font-weight: bold;">Web site</span>:&nbsp; <a href="http://www.mit.edu/~avp/sse/">http://www.mit.edu/~avp/sse/</a><br>
+<span style="font-weight: bold;">Reference to cite</span>:&nbsp; <br>
 </td>
 </tr>
 <tr>
@@ -139,10 +163,9 @@ Clover is a Level 3 solver for Clover fermions from MIT <a href=" https://usqcd.
 <p>
 <span style="text-decoration: underline;">CG-DWF</span></a></h4>
 This module provides a Domain-Wall inverter optimized for SSE, BlueGene and AltiVec architectures. <br>
-The download page is <a href="http://www.mit.edu/~avp/sse/">here</a>
 
+<!--
 <p>
-
 <table class="layers2">
 <tr>
 <td class="level3"> SSE Wilson Dslash</td>
@@ -166,7 +189,7 @@ The download page is <a href="http://www.mit.edu/~avp/sse/">here</a>
 This module provides a Wilson Dslash Operator implementation for SSE. Click
 here to go to the SSE Dslash module home page (page under construction)
 <p>
-
+-->
 
 </body>
 </html>
