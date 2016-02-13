@@ -3,7 +3,7 @@ document.write('<tr><th  colspan="2"> <a href="./index.html"> HOME</a> </th></tr
 document.write('<tr><th  colspan="2"> <a href="https://github.com/usqcd-software"> SOFTWARE</a> </th></tr>');
 document.write('<tr><th  colspan="2"><a href="./Tutorials.html"> Tutorials </a></th></tr>');
 document.write('<tr><th  colspan="2"> <a href="./References.html"> References</a> </th></tr>');
-document.write('<tr><th  colspan="2"> <a href="./Usages.html"> Usages</a> </th></tr>');
+document.write('<tr><th  colspan="2"> <a href="./Impact.html"> Software Impact</a> </th></tr>');
 document.write('<tr><th  class="alt" colspan="2"> Applications </th></tr>');
 document.write('<tr> ');
 document.write('    <td><a href="./Chroma.html">Chroma</a></td>');
