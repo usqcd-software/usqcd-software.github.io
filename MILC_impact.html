@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+     google.load('visualization', '1', {'packages': ['geochart']});
+     google.setOnLoadCallback(drawMarkersMap);
+
+      function drawMarkersMap() {
+  var data = google.visualization.arrayToDataTable([
+	['City', 'Number of Institutions', {type: 'string', role: 'tooltip'}],
+        ['Chicago, USA',  1,'  ANL'],
+        ['Batavia, USA',  1,'  FermiLab'],
+       ['Urbana, IL',  1,' U. Illinois '],
+       ['Storrs, CT',  1,' U. Connecticut '],
+       ['New York, USA',  1,' Fordham'],
+       ['Boulder, CO, USA',  1,' U. Colorado'],
+       ['Ithaca, NY',  1,'  Cornell U.  '],
+       ['Bloomington, IN,USA',  1,'  U. Indiana'],
+       ['Salt Lake City, Utah,USA',  1,'  U. Utah']
+]);
+ 
+
+
+      var options = {
+        displayMode: 'markers',
+        colorAxis: {colors: ['red' , 'yellow']},
+	backgroundColor: 'white',
+	datalessRegionColor:'LightBlue',
+	markerOpacity:'0.95',
+	tooltip: {textStyle: {fontSize:'11'}},
+	sizeAxis: { minValue: 1, maxValue: 6 }
+      };
+
+      var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+  chart.draw(data, options);
+};
+
+</script>
+  </head>
+  <body>
+    <title>MILC Software Impact</title>
+   <center> <font size="20">MILC Impact</font></center>
+    <div id="chart_div" style="width: 1080px; height: 600px;"></div>
+  </body>
+</html>
+
